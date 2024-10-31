@@ -12,5 +12,5 @@ from .HalfDumbLassoRegressor import HalfDumbLassoRegressor
 from .DumbRidgeRegressor import DumbRidgeRegressor
 from .HalfDumbRidgeRegressor import HalfDumbRidgeRegressor
 
-from .DumbElasticNet import DumbElasticNet
-from .HalfDumbElasticNet import HalfDumbElasticNet
+from .DumbElasticNet import DumbElasticNetRegressor
+from .HalfDumbElasticNet import HalfDumbElasticNetRegressor
