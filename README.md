@@ -25,7 +25,7 @@ pip install numpy scipy
 ```
 
 # Models:
-The following models are presented in both versions ("Dumb" and "Half Dumb"):
+Almost all of the following models are presented in both versions ("Dumb" and "Half Dumb"):
 
 ## Linear Regression
 
@@ -52,6 +52,10 @@ The following models are presented in both versions ("Dumb" and "Half Dumb"):
 - DumbElasticNetRegressor - a class that implements linear ElasticNet regression (combination of L1 and L2 regularizations). The minimization of the loss function of such a regression cannot be performed analytically, therefore a manual implementation of the coordinate descent method is used.
 - HalfDumbElasticNetRegressor - a class that implements linear ElasticNet regression (combination of L1 and L2 regularizations). In this case, numerical minimization is performed using `scipy.optimize.minimize`.
 
+## Logistic Regression
+
+- HalfDumbLogisticRegression - a class that implements logistic regression with class balancing and built-in class prediction and interpretation with different probability thresholds. Also, the class includes an evaluation of precision, recall, f1 score metrics and a built-in method of outputting the report of the last classification using a threshold. The loss function is minimized using `scipy.optimize.minimize`.
+  
 # Usage
 ## Model initialization and training
 
