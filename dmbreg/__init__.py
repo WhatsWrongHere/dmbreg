@@ -1,4 +1,4 @@
-__version__ = "0.1.0"
+__version__ = "0.1.1"
 
 from .DumbLinearRegressor import DumbLinearRegressor
 from .HalfDumbLinearRegressor import HalfDumbLinearRegressor
@@ -14,3 +14,5 @@ from .HalfDumbRidgeRegressor import HalfDumbRidgeRegressor
 
 from .DumbElasticNet import DumbElasticNetRegressor
 from .HalfDumbElasticNet import HalfDumbElasticNetRegressor
+
+from .HalfDumbLogisticRegressor import HalfDumbLogisticRegressor
